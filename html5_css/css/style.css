@@ -1,4 +1,13 @@
-body{
-    background-color:azure;
+body {
+    background-color: azure;
 }
 
+#container 
+{
+    background-color: white;
+    width: 950px;
+    margin: 0 auto;
+    border:2px solid black;
+    padding: 20px;
+    
+}
