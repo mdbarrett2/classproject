@@ -51,5 +51,90 @@ text-decoration: none;
 }
 
 nav li a:hover{
-background-color: cornflowerblue;
+background-color: rgb(227, 128, 141);
+}
+
+main{
+border: 2px solid black ;
+padding: 10px; 
+margin: 10px;
+}
+
+#lower {
+border: 2px solid black;
+padding: 10px;
+}
+
+.column {
+border: 2px solid black;
+margin: 10px;
+padding: 10px;
+}
+
+footer{
+padding: 30px 0;
+text-align: center;
+}
+
+.button {
+display: block;
+margin: 10px auto;
+text-align: center;
+background-color: rgb(78, 2, 2);
+width: 125px;
+height: 20px;
+line-height: 20px;
+text-decoration: none;
+border: 2px solid black;
+border-radius: 10px;
+}
+
+.button:hover{
+color: rgb(99, 58, 58);
+}
+
+/* Tablet Style */
+
+@media (min-width: 786px) {
+nav {
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+
+nav li a {
+width: 200px;
+}
+
+main img {
+width: 50%;
+}
+
+#lower {
+width: 75%;
+margin: 0 auto;
+}
+
+.column img {
+width: 45%;
+}
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+#container{
+width: 70%;
+margin: 20px auto;
+}
+
+#lower {
+width: 100%;
+display: flex; 
+padding: 0px;
+}
+.column {
+width: 33%;
 }
