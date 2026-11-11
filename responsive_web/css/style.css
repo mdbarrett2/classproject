@@ -8,9 +8,10 @@ img {
 body {
     background-color:rgb(104, 95, 95);
 }
-
+s
 #container {
 border: 2px solid black;
+background-color: rgb(103, 101, 101); 
 }
 
 a {
