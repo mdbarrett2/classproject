@@ -6,7 +6,7 @@ img {
 }
 
 body {
-    background-color:whitesmoke;
+    background-color:rgb(104, 95, 95);
 }
 
 #container {
@@ -42,7 +42,7 @@ display: block;
 height: 30px;
 line-height: 30px;
 color: white;
-background-color: rgb(94, 15, 15);
+background-color: rgb(157, 19, 19);
 text-align: center;
 margin: 5px 0;
 font-size: 15px;
@@ -80,7 +80,7 @@ text-align: center;
 display: block;
 margin: 10px auto;
 text-align: center;
-background-color: rgb(78, 2, 2);
+background-color: rgb(198, 10, 10);
 width: 125px;
 height: 20px;
 line-height: 20px;
@@ -90,7 +90,7 @@ border-radius: 10px;
 }
 
 .button:hover{
-color: rgb(99, 58, 58);
+color: rgb(180, 102, 102);
 }
 
 /* Tablet Style */
